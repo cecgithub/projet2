@@ -1,0 +1,43 @@
+body
+{
+    margin: 0;
+    padding: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bouton input
+{
+   border: none;
+   outline: none;
+   height: 30px;
+   width: 150px;
+   font-weight: bold;
+}
+ .bouton .text {
+    border-right: 1px solid black;
+}
+.bouton div
+{
+    background-color: white;
+    border-radius: 5px;
+}
+section img{
+    height: 30px;
+    width: 30px;
+}
+.container {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+button {
+    border: none;
+    border-radius: 40px;
+    height: 30px;
+    width: 30px;
+}
