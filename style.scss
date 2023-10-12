@@ -1,0 +1,174 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+
+input[type="search"]{
+    border: none;
+    width: 350px;
+    height: 30px;
+    border-radius: 30px;
+   }
+.searchBar {
+border: 2px solid black;
+width: 400px;
+border-radius: 20px;
+}
+button{
+    border: none;
+    background: none;
+
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.6rem;
+}
+
+.icones img {
+    width: 35px;
+    height: auto;
+    opacity: 0.5;
+}
+
+.icones img:hover, .icones img:active {
+    opacity: 1;
+}
+
+.content {
+ display: flex;
+ justify-content: space-evenly;
+ border: none;
+ outline: none;
+}
+.logement {
+    border-radius: 5px;
+}
+
+.content .logement {
+    height: 200px;
+    width: 250px;
+}
+.card
+{
+    border: none;
+ outline: none;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+section {
+    margin: 50px;
+}
+.icones button {
+    background-color: none; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+body{
+    font-family: 'Airbnb Cereal', sans-serif;
+}
+.logo
+{
+    cursor:pointer;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+    }
+    .icones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        
+    }
+    input[type=search] {
+        width: 200px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .searchBar {
+        width: 250px;
+        white-space: nowrap;
+        word-break: break-all;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+    }
+    .icones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        
+    }
+    input[type=search] {
+        width: 200px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .searchBar {
+        width: 250px;
+        white-space: nowrap;
+        word-break: break-all;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-left: 30%;
+    }
+    .icones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-left: 30%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+    }
+    .searchBar {
+        width: 250px;
+        white-space: nowrap;
+        word-break: break-all;
+    }
+    input[type=search] {
+        width: 200px;
+    }
+    .logo {
+        width: 150px;
+    }
+    
+}
+    
